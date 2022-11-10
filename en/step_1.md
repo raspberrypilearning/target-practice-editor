@@ -1,59 +1,40 @@
-## Introduction
+## You will make
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+Use Python, with the `p5` graphics library, to draw a target and score points by hitting it with arrows. 
 
-### What you will make
+You will:
+ + Personalise your game with **RGB colours**
+ + Use **conditional statements** (`if`, `elif`, `else`) to make decisions
+ + Position shapes with **x, y coordinates**
 
 --- no-print ---
-Add instructions for interacting with the embedded content here.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
+### Play ▶️
+
+--- task ---
+
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 175px; flex-grow: 1">  
+Click the **Run** button below to start the game. When the dot appears on the target 🎯, click the mouse (or tap on your tablet) to fire your arrow. 
+
+Have a few goes. Your score appears in the output area below the target. How does your score change when the arrow lands on the different colours? 
+  <iframe src="https://trinket.io/embed/python/f686c82d8a?outputOnly=true" width="600" height="560" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  </iframe>
 </div>
+</div>
+
+--- /task ---
+
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/showcase_static.png)
+
+![Completed project.](images/yellow-points.png)
+
 --- /print-only ---
 
---- collapse ---
----
-title: What you will need
----
-### Hardware
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+The oldest evidence of <span style="color: #0faeb0; font-weight: bold;"> archery </span> comes from the Sibudu Cave in KwaZulu-Natal, South Africa. Remains of stone and bone arrowheads have been found, which date to between 60,000 and 70,000 years ago. 
+</p>
 
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+![](http://code.org/api/hour/begin_coderdojo_target.png)
