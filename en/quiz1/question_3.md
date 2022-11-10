@@ -13,7 +13,7 @@ language: python
 
 def setup():   
   size(400, 400)   
-  fill(0, 255, 0)   
+  fill('green')   
   no_stroke()   
     
 def draw():   

@@ -117,7 +117,7 @@ The `p5` library 'listens' for certain events, one of these is the press of the 
 
 Define your `mouse_pressed()` function under the comment **# The mouse_pressed function goes here**. 
 
-Add code to print the amounts of red, green, and blue in the pixel the arrow lands on. 
+<mark>Add code to print the amounts of red, green, and blue in the pixel the arrow lands on. </mark>
 
 --- code ---
 ---
@@ -130,7 +130,7 @@ line_highlights: 6, 7
 
 # The mouse_pressed function goes here    
 def mouse_pressed():    
-    print(hit_color)
+    print(Color(hit_color))
 
 --- /code ---
 

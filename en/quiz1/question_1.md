@@ -10,41 +10,41 @@ Have fun!
 ---
 legend: Question 1 of 3
 ---
-Here is a blue square, what are the RGB values that will create it?
+Here is a blue square, which line of code would be used to set the colour.
 
 ![A single block of blue colour.](images/quiz-colour.png)
 
 --- choices ---
 
-- ( ) (0, 0, 0)
+- fill('cyan')
 
   --- feedback ---
 
-Not quite, when all the colour values are set to `0`, the color is **black**.
+Not quite, this is the colour of the sky in your project. The outer circle of the target is coloured blue.
 
   --- /feedback ---
 
-- ( ) (255, 0, 0)
+- rect('blue')
 
   --- feedback ---
 
-Not quite, colours follow the RGB model. This colour has maximum R value and no G or B, so will be **red**.
+Not quite, `rect` is used to set the position and size of a rectangle, not its colour.
 
   --- /feedback ---
 
-- (x) (0, 0, 255)
+- (x) fill('blue')
 
   --- feedback ---
 
-  That's correct! Colours follow the RGB model. This colour has no R or G, but maximum B, so will be **blue**.
+  That's correct! This rectangle is filled with colour blue. The colour needs to be written 'blue'.
 
   --- /feedback ---
 
-- ( ) (255, 255, 255)
+- ( ) fill(blue)
 
   --- feedback ---
 
-  Not quite, when all the colour values are set to the `255` maximum, the color is **white**.
+  Not quite, this is the right colour but the colour name needs to be in quotes.
 
   --- /feedback ---
 
