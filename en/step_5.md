@@ -19,7 +19,7 @@ We use <span style="color: #0faeb0; font-weight: bold;"> conditions</span> all t
 
 --- task ---
 
-<mark>Delete ❌ the `print( red(hit_color), green(hit_color), blue(hit_color) )` line of code. </mark>
+Delete ❌ the `print('🎯')` line of code. 
 
 --- code ---
 ---

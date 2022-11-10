@@ -117,7 +117,7 @@ The `p5` library 'listens' for certain events, one of these is the press of the 
 
 Define your `mouse_pressed()` function under the comment **# The mouse_pressed function goes here**. 
 
-<mark>Add code to print the amounts of red, green, and blue in the pixel the arrow lands on. </mark>
+Add code to print the target emoji (🎯) when the mouse is clicked.
 
 --- code ---
 ---
@@ -130,7 +130,7 @@ line_highlights: 6, 7
 
 # The mouse_pressed function goes here    
 def mouse_pressed():    
-    print(Color(hit_color))
+    print('🎯')
 
 --- /code ---
 
@@ -140,13 +140,12 @@ def mouse_pressed():
 
 **Test:** 🔄 Run your project. 
 
-The project prints the `hit_color` each time the arrow is redrawn.
+The project prints 🎯 each time the arrow is redrawn.
 
 ![The target, with a brown circle arrow appearing in a variety of positions.](images/fire_arrow.gif)
 
-**Debug:** 🐞 If you are seeing a message about `hit_color` being 'not defined', then go back to `shoot_arrow()` and check that you have the `global hit_color` line.
 
-**Debug:** 🐞 Check the `print` line really carefully for commas and brackets. 
+**Debug:** 🐞 Check the `print` line really carefully for quotes and brackets. 
 
 --- /task ---
 
