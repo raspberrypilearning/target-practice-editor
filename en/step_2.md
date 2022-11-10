@@ -17,7 +17,7 @@ Your game needs a colourful background.
 
 Open the [Target practice starter](https://trinket.io/python/9973649e5c){:target="_blank"} project. 
 
-If you have a Trinket account, you can click on the **Remix** button to save a copy to your **My Trinkets** library.
+<mark>If you have an account, you can click on the **Remix** button to save a copy to your **My Projects** library.</mark>
 
 --- /task ---
 
@@ -27,7 +27,7 @@ If you have a Trinket account, you can click on the **Remix** button to save a c
 
 The starter project has some code already written for you. 
 
-Click **'Run'** to see a blue filled rectangle drawn from x=`0`, y=`0` (the top of the screen). This `400` x `250` pixels rectangle is the sky. 
+<mark>Click **'Run'**</mark> to see a blue filled rectangle drawn from x=`0`, y=`0` (the top of the screen). This `400` x `250` pixels rectangle is the sky. 
 
 ![A blue rectangle with a black border around it, above a grey rectangle. The top left corner of the canvas is marked as x=0, y=0 this is the origin of the rectangle. The width is highlighted as 400 and the height as 250. The code rect(0, 0, 400, 250) is shown.](images/sky_stroke.png){:width="400px"}
 
@@ -46,14 +46,13 @@ To turn the stroke off for all shapes add `no_stroke()` to the `setup` function:
 language: python
 filename: main.py — setup()
 line_numbers: true
-line_number_start: 11
-line_highlights: 15
+line_number_start: 9
+line_highlights: 12
 ---
 def setup():
 # Setup your game here
-  size(400, 400) # width and height of screen
-  frame_rate(2)
-  no_stroke()
+    size(400, 400) # width and height of screen
+    no_stroke()
 
 --- /code ---
 
@@ -78,25 +77,19 @@ def setup():
 language: python
 filename: main.py — draw()
 line_numbers: true
-line_number_start: 17
-line_highlights: 27, 28
+line_number_start: 14
+line_highlights: 18, 19
 ---
 def draw():
 # Things to do in every frame
-  global wood
-  sky = color(92, 204, 206) # Red = 92, Green = 204, Blue = 206
-  grass = color(149, 212, 122)
-  wood = color(145, 96, 51)
-  outer = color(0, 120, 180) 
-
-  fill(sky)     
-  rect(0, 0, 400, 250)     
-  fill(grass) # Set the fill color to grass
-  rect(0, 250, 400, 150) # x, y, width, height     
+    fill('cyan')     
+    rect(0, 0, 400, 250)     
+    fill('lightgreen') # Set the fill color to lightgreen
+    rect(0, 250, 400, 150) # x, y, width, height     
 
 --- /code ---
 
-**Tip:** 💡 We have added comments to our code, like `# Set the fill color to grass`, to tell you what it does. You don't need to add these comments to your code, but they can be helpful to remind you what lines of code do.
+**Tip:** 💡 We have added comments to our code, like `# Set the fill color to lightgreen`, to tell you what it does. You don't need to add these comments to your code, but they can be helpful to remind you what lines of code do.
 
 --- /task ---
 

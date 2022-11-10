@@ -15,7 +15,7 @@ Your game needs a target to shoot arrows at.
 
 --- task ---
 
-Set the fill colour to `wood` (brown). 
+Set the fill colour to `siena` (brown). 
 
 Draw a triangle using the x and y coordinates for each of the corners.
 
@@ -26,13 +26,13 @@ Draw a triangle using the x and y coordinates for each of the corners.
 language: python
 filename: main.py - draw()
 line_numbers: true
-line_number_start: 27
-line_highlights: 29, 30
+line_number_start: 18
+line_highlights: 20, 21
 ---
-  fill(grass)   
-  rect(0, 250, 400, 150) 
-  fill(wood) # Set the stand fill colour to wood     
-  triangle(150, 350, 200, 150, 250, 350)
+    fill('lightgreen')
+    rect(0, 250, 400, 150) 
+    fill('sienna') # Brown color
+    triangle(150, 350, 200, 150, 250, 350) # Stand 
 
 --- /code ---
 
@@ -63,14 +63,14 @@ Draw a circle with x and y coordinates for its centre and a width.
 language: python
 filename: main.py - draw()
 line_numbers: true
-line_number_start: 29
-line_highlights: 31, 32
+line_number_start: 20
+line_highlights: 22, 23
 ---
 
-  fill(wood)   
-  triangle(150, 350, 200, 150, 250, 350)   
-  fill(outer) # Set the circle fill colour to outer    
-  circle(200, 200, 170) # x, y, width of the circle
+    fill('sienna') 
+    triangle(150, 350, 200, 150, 250, 350) # Stand 
+    fill('blue')
+    circle(200, 200, 170) # Outer circle 
   
 --- /code ---
 
@@ -86,36 +86,6 @@ The blue circle was drawn after the stand so it is in front:
 
 --- /task ---
 
---- task ---
-
-👀 Find your colour variables in the `draw` function. 
-
-Create two variables called `inner` and `middle` to store colours for the other circles. 
-
-The `color` function expects three numbers: one each for red, green, and blue.
-
---- code ---
----
-language: python
-filename: main.py - draw()
-line_numbers: true
-line_number_start: 17
-line_highlights: 24, 25
----
-def draw():   
-  # Things to do in every frame
-  global wood
-  sky = color(92, 204, 206)   
-  grass = color(149, 212, 122)   
-  wood = color(145, 96, 51)   
-  outer = color(0, 120, 180) # Blue    
-  inner = color(210, 60, 60) # Red    
-  middle = color(220, 200, 0) # Yellow    
-
---- /code ---
-
---- /task ---
-
 The target is made of different-sized circles with the same centre coordinates (200, 200). 
 
 --- task ---
@@ -127,17 +97,17 @@ The target is made of different-sized circles with the same centre coordinates (
 language: python
 filename: main.py - draw()
 line_numbers: true
-line_number_start: 31
-line_highlights: 35, 36, 37, 38
+line_number_start: 20
+line_highlights: 24, 25, 26, 27
 ---
-  fill(wood)    
-  triangle(150, 350, 200, 150, 250, 350)  
-  fill(outer)   
-  circle(200, 200, 170)
-  fill(inner) # Set the circle fill colour to inner      
-  circle(200, 200, 110) # Inner circle - x, y, width of the circle  
-  fill(middle) # Set the circle fill colour to middle      
-  circle(200, 200, 30) # Middle circle - x, y, width of the circle 
+    fill('sienna') 
+    triangle(150, 350, 200, 150, 250, 350) # Stand 
+    fill('blue')
+    circle(200, 200, 170) # Outer circle 
+    fill('red') # Set the circle fill colour to inner 
+    circle(200, 200, 110) # Inner circle - x, y, width of the circle 
+    fill('yellow') # Set the circle fill colour to middle      
+    circle(200, 200, 30)  # Middle circle - x, y, width of the circle 
   
 --- /code ---
 
@@ -157,7 +127,7 @@ line_highlights: 35, 36, 37, 38
 
 **Choose:** 💭 Change any of the colours.
 
-[[[generic-theory-simple-colours]]]
+[[[css-colours]]]
 
 ![A brown triangle with three coloured circles on grass and against a sky. The colours have changed to pinks and purples.](images/alternative-colours.png){:width="400px"}
 
