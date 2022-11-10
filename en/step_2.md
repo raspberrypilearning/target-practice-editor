@@ -15,7 +15,7 @@ Your game needs a colourful background.
 
 --- task ---
 
-Open the [Target practice starter](https://trinket.io/python/9973649e5c){:target="_blank"} project. 
+Open the [Target practice starter](https://editor.raspberrypi.org/python/derbies-gushing-dozes){:target="_blank"} project. 
 
 <mark>If you have an account, you can click on the **Remix** button to save a copy to your **My Projects** library.</mark>
 
