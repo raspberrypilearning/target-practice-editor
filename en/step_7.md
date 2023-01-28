@@ -29,7 +29,7 @@ You could:
 title: Completed project
 ---
 
-[Target practice complete](https://editor.raspberrypi.org/target-practice-solution){:target="_blank"}
+[Target practice complete](https://editor.raspberrypi.org/projects/target-practice-solution){:target="_blank"}
 
 --- /collapse ---
 
