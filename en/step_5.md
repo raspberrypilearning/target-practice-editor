@@ -39,7 +39,7 @@ def mouse_pressed():
 
 --- task ---
 
-`print` a message `if` the `hit_color` is equal to `outer` 🎯. 
+Display a message **if** the `hit_color` is equal to `outer` 🎯. 
 
 Notice 👀 that the code uses two equals signs `==` to mean **equal to**.
 
@@ -59,6 +59,8 @@ def mouse_pressed():
 
 --- /code ---
 
+**Tip:** 💡 If you changed the colour of your outer circle then you will need to replace `'blue'` with the colour name that you have chosen.
+
 --- /task ---
 
 --- task ---
@@ -71,9 +73,11 @@ def mouse_pressed():
 
 **Debug:** 🐞 Make sure your code matches exactly and you indented the code inside your `if` statement. 
 
+**Debug:** 🐞 Make sure that you have entered the correct colour name for **your** outer circle. 
+
 --- /task ---
 
-`elif` (else - if) can be used to add more conditions to your `if` statement. These will be read from top to bottom. As soon as a **True** condition is found, it will be actioned. The remaining conditions will be ignored.
+`elif` (else if) can be used to add more conditions to your `if` statement. These will be read from top to bottom. As soon as a **True** condition is found, it will be actioned. The remaining conditions will be ignored.
 
 --- task ---
 
@@ -110,6 +114,8 @@ def mouse_pressed():
 **Debug:** 🐞 Check your indentation matches the example.
 
 **Debug:** 🐞 If you see a message about `inner` or `middle` being 'not defined', then go back to `draw()` and check that they are on the line that declares variables global.
+
+**Debug:** 🐞 Make sure that you have entered the correct colour name for **your** circles. 
 
 --- /task ---
 
