@@ -15,13 +15,15 @@ You will:
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Click the **Run** button below to start the game. When the dot appears on the target 🎯, click the mouse (or tap on your tablet) to fire your arrow. 
+Scroll down and click the **Run** button below to start the game. When the small brown circle appears on the target 🎯, click the mouse (or tap on your tablet) to fire your arrow. 
 
 Have a few goes. Your score appears in the output area below the target. How does your score change when the arrow lands on the different colours? 
   <iframe src="https://editor.raspberrypi.org/embed/viewer/target-practice-solution" width="490" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 </div>
+
+**Tip:** 💡 When you press **Stop** you will see a prompt that says 'Execution interrupted'. This just means that you have stopped the program whilst the code was still running. 
 
 --- /task ---
 
