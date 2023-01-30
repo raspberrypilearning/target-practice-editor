@@ -62,6 +62,8 @@ def setup():
 
 **Run** your code again and notice 👀 that the border (stroke) has now disappeared. 
 
+**Tip:** 💡 You will need to press **Stop** to stop your program, this will make the **Run** button reappear. 
+
 --- /task ---
 
 ### Draw the grass

@@ -52,7 +52,7 @@ line_highlights: 20, 21
 
 The largest part of the target is a blue **circle**.
 
-Set the fill colour to `outer` (blue). 
+Set the fill colour to `blue`. 
 
 Draw a circle with x and y coordinates for its centre and a width. 
 
@@ -100,6 +100,7 @@ line_numbers: true
 line_number_start: 20
 line_highlights: 24, 25, 26, 27
 ---
+    
     fill('sienna') 
     triangle(150, 350, 200, 150, 250, 350) # Stand 
     fill('blue')
