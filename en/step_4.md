@@ -84,7 +84,7 @@ A <span style="color: #0faeb0; font-weight: bold;">pixel</span>, short for pictu
 
 --- task ---
 
-Add a `hit_color` a **global variable** that can be used throughout your code.
+Add a **global variable** called `hit_color` that can be used throughout your code.
 
 Add code to `get` the colour of the pixel at the centre of the arrow and store it in the `hit_color` variable. 
 
@@ -106,7 +106,7 @@ def shoot_arrow():
     circle(arrow_x, arrow_y, 15) # Draw a small circle at random coordinates 
 --- /code ---
 
-**Tip:** 💡 The code to `get` the colour needs to be **before** the code to draw the `circle` otherwise you will always save the wood colour of the arrow! 
+**Tip:** 💡 The code to get the colour needs to be **before** the code to draw the circle otherwise you will always save the wood colour of the arrow! 
 
 --- /task ---
 
@@ -118,7 +118,7 @@ The `p5` library 'listens' for certain events, one of these is the press of the 
 
 Define your `mouse_pressed()` function under the comment **# The mouse_pressed function goes here**. 
 
-Add code to print the target emoji (🎯) when the mouse is clicked.
+Add code to print the target emoji 🎯 when the mouse is clicked.
 
 --- code ---
 ---
