@@ -17,7 +17,7 @@ Your game needs a colourful background.
 
 Open the [Target practice starter](https://editor.raspberrypi.org/projects/target-practice-starter){:target="_blank"} project. 
 
-<mark>If you have an account, you can click on the **Remix** button to save a copy to your **My Projects** library.</mark>
+If you have a Code Editor account, click 'Save' to log in and save your project to 'Your Projects'.
 
 --- /task ---
 
@@ -27,7 +27,7 @@ Open the [Target practice starter](https://editor.raspberrypi.org/projects/targe
 
 The starter project has some code already written for you. 
 
-<mark>Click **'Run'**</mark> to see a blue filled rectangle drawn from x=`0`, y=`0` (the top of the screen). This `400` x `250` pixels rectangle is the sky. 
+Click **'Run'** to see a blue filled rectangle drawn from x=`0`, y=`0` (the top of the screen). This `400` x `250` pixels rectangle is the sky. 
 
 ![A blue rectangle with a black border around it, above a grey rectangle. The top left corner of the canvas is marked as x=0, y=0 this is the origin of the rectangle. The width is highlighted as 400 and the height as 250. The code rect(0, 0, 400, 250) is shown.](images/sky_stroke.png){:width="400px"}
 
