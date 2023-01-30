@@ -53,8 +53,8 @@ Go to the `draw` function and call your new `shoot_arrow` function.
 language: python
 filename: main.py — draw()
 line_numbers: true
-line_number_start: 33
-line_highlights: 35
+line_number_start: 31
+line_highlights: 33
 ---
     fill('yellow')   
     circle(200, 200, 30) # Middle  
