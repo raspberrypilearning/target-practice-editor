@@ -30,8 +30,9 @@ language: python
 filename: main.py — shoot_arrow()
 line_numbers: true
 line_number_start: 7
-line_highlights: 8, 9, 10, 11, 12, 13, 14
+line_highlights: 8, 9, 10, 11, 12
 ---
+
 # The shoot_arrow function goes here  
 def shoot_arrow(): 
     arrow_x = randint(100, 300) # Store a random number between 100 and 300
