@@ -15,7 +15,7 @@ Your game needs a target to shoot arrows at.
 
 --- task ---
 
-Set the fill colour to `siena` (brown). 
+Set the fill colour to `sienna` (brown). 
 
 Draw a triangle using the x and y coordinates for each of the corners.
 
