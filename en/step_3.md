@@ -126,11 +126,42 @@ line_highlights: 24, 25, 26, 27
 
 --- task ---
 
-**Choose:** 💭 Change any of the colours.
-
-[[[css-colours]]]
+**Choose:** 💭 Change any of the colours using a different colour name. You can find a list of all of the available colour names on [W3 Schools](https://www.w3schools.com/colors/colors_names.asp){target="blank"}. 
 
 ![A brown triangle with three coloured circles on grass and against a sky. The colours have changed to pinks and purples.](images/alternative-colours.png){:width="400px"}
+
+--- collapse ---
+---
+title: Example code using different colours
+---
+
+--- code ---
+---
+language: python
+filename: main.py - draw()
+line_numbers: false
+line_number_start: 1
+line_highlights: 
+---
+    
+def draw():
+# Things to do in every frame
+    fill('BlueViolet')
+    rect(0, 0, 400, 250) # Sky colour
+    fill('DeepSkyBlue') # Ground colour
+    rect(0, 250, 400, 150) # x, y, width, height
+    fill('FireBrick') # Stand colour
+    triangle(150, 350, 200, 150, 250, 350) # Stand
+    fill('LemonChiffon')
+    circle(200, 200, 170) # Outer circle
+    fill('DeepPink') # Set the circle fill colour to inner
+    circle(200, 200, 110) # Inner circle - x, y, width of the circle
+    fill('BlueViolet') # Set the circle fill colour to middle
+    circle(200, 200, 30)  # Middle circle - x, y, width of the circle
+  
+--- /code ---
+
+--- /collapse ---
 
 
 --- /task ---
