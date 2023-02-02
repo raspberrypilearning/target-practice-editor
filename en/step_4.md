@@ -11,6 +11,10 @@ When you click or tap, an arrow will fire at the position of a moving target cir
 </div>
 </div>
 
+<div class="c-survey-banner">
+  <a class="c-survey-banner__link" href="https://form.raspberrypi.org/4873313">Take our survey</a> to help make our Code Editor better!
+</div>
+
 ### Draw a target circle every frame
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;"> Computers create the effect of movement by showing lots of images one after another. Each image is called a <span style="color: #0faeb0; font-weight: bold;"> frame </span>.   
