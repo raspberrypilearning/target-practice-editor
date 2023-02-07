@@ -1,3 +1,7 @@
+<div class="c-survey-banner" style="width:100%">
+  <a class="c-survey-banner__link" href="https://form.raspberrypi.org/4873313" target="_blank">Take our survey</a> to help make our Code Editor better!
+</div>
+
 ## Fire your arrow
 
 <div style="display: flex; flex-wrap: wrap">
@@ -9,10 +13,6 @@ When you click or tap, an arrow will fire at the position of a moving target cir
 ![The target, with a brown circle arrow appearing in a variety of positions.](images/fire_arrow.gif){:width="300px"}
 
 </div>
-</div>
-
-<div class="c-survey-banner">
-  <a class="c-survey-banner__link" href="https://form.raspberrypi.org/4873313">Take our survey</a> to help make our Code Editor better!
 </div>
 
 ### Draw a target circle every frame
