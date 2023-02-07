@@ -1,3 +1,7 @@
+<div class="c-survey-banner" style="width:100%">
+  <a class="c-survey-banner__link" href="https://form.raspberrypi.org/4873313" target="_blank">Take our survey</a> to help make our Code Editor better!
+</div>
+
 ## Create a background
 
 <div style="display: flex; flex-wrap: wrap">
@@ -9,10 +13,6 @@ Your game needs a colourful background.
 ![The output area with a sky-coloured rectangle above a grass-coloured rectangle to create the background.](images/background.png){:width="300px"}
 
 </div>
-</div>
-
-<div class="c-survey-banner">
-  <a class="c-survey-banner__link" href="https://form.raspberrypi.org/4873313">Take our survey</a> to help make our Code Editor better!
 </div>
 
 ### Open the starter project
