@@ -11,6 +11,10 @@ Your game needs a colourful background.
 </div>
 </div>
 
+<div class="c-survey-banner">
+  <a class="c-survey-banner__link" href="https://form.raspberrypi.org/4873313">Take our survey</a> to help make our Code Editor better!
+</div>
+
 ### Open the starter project
 
 --- task ---

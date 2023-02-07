@@ -119,6 +119,10 @@ def mouse_pressed():
 
 --- /task ---
 
+<div class="c-survey-banner">
+  <a class="c-survey-banner__link" href="https://form.raspberrypi.org/4873313">Take our survey</a> to help make our Code Editor better!
+</div>
+
 ### Missing the target
 
 There is one more decision you need to make: what happens if the arrow does not land on any of the target circles? ❌ 
