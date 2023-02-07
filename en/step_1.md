@@ -1,3 +1,7 @@
+<div class="c-survey-banner" style="width:100%">
+  <a class="c-survey-banner__link" href="https://form.raspberrypi.org/4873313" target="_blank">Take our survey</a> to help make our Code Editor better!
+</div>
+
 ## You will make
 
 Use Python, with the `p5` graphics library, to draw a target and score points by hitting it with arrows. 
@@ -8,10 +12,6 @@ You will:
  + Position shapes with **x, y coordinates**
 
 --- no-print ---
-
-<div class="c-survey-banner">
-  <a class="c-survey-banner__link" href="https://form.raspberrypi.org/4873313">Take our survey</a> to help make our Code Editor better!
-</div>
 
 ### Play ▶️
 
