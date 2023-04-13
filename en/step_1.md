@@ -22,7 +22,7 @@ You will:
 Scroll down and click the **Run** button below to start the game. When the small brown circle appears on the target 🎯, click the mouse (or tap on your tablet) to fire your arrow. 
 
 Have a few goes. Your score appears in the output area below the target. How does your score change when the arrow lands on the different colours? 
-  <iframe src="https://editor.raspberrypi.org/embed/viewer/target-practice-solution" width="490" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/target-practice-solution" width="490" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 </div>
